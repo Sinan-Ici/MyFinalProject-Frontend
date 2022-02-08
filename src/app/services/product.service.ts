@@ -13,7 +13,7 @@ export class ProductService {
 
   getProducts():Observable<ProductResponseModel> {
     return this.httpClient
-    .get<ProductResponseModel>(this.apiUrl)
+    .get<ProductResponseModel>(this.apiUrl);
       
   }
 }
